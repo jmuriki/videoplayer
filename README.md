@@ -4,6 +4,8 @@
 
 Ознакомиться можно [здесь](https://jmuriki.github.io/videoplayer/).
 
+![](./videoplayer_screenshot.png)
+
 В репозитории вы найдёте папки со шрифтами (кнопками) и статикой, а также файл сайта `index.html`.
 
 ## Цель проекта
