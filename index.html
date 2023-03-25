@@ -25,23 +25,21 @@
       .video-container {
         flex-grow: 1;
       }
-      .buttons-container {
+      .vp-buttons-container {
         background-color: black;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
       }
       .vp-button {
-        width: 36px;
-        height: 36px;
         margin: 3px;
-        padding: 5px;
+        width: 30px;
+        height: 30px;
         border-style: hidden;
         cursor: pointer;
         color: white;
         background-color: transparent;
-        font-size: larger;
-        line-height: 1.2;
+        font-size: 20px;
       }
       .flex-grow-1 {
         flex-grow: 1;
@@ -51,7 +49,7 @@
   <body>
     <div id="player" class="player">
       <div class="js-video-container video-container"></div>
-      <div class="buttons-container">
+      <div class="vp-buttons-container">
         <button class="js-play-button vp-button"><i class="fa fa-play" aria-hidden="true"></i></button>
         <button class="js-pause-button vp-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
         <button class="js-volume-button vp-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
